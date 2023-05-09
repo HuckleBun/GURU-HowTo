@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.navbar {
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(53, 132, 250);
+}
+
+.nav-link {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.nav-link:focus,
+.nav-link:active,
+.nav-link:hover {
+    background-color: #ffffff26;
+}
+
+.dropdown-menu {
+    background-color: #3a3939;
+}
+
+.dropdown-item:focus,
+.dropdown-item:active,
+.dropdown-item:hover {
+    background-color: #ffffff26;
+}
+
+.center {
+    width: 85%;
+    float: right;
+    text-align: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 5%;
+}
